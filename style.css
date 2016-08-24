@@ -1,0 +1,63 @@
+#main {
+  text-align: center;
+  margin:auto;
+  padding:190px 20px;
+}
+
+img#logo {
+  width:274px;
+}
+
+body {
+  width:100%;
+  overflow-x: hidden;
+  font-family: Arial;
+}
+
+nav ul {
+  list-style: none;
+  float:right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right:10px;
+}
+
+input[type="text"] {
+  background-image: url(http://i.gyazo.com/cd5453d8d107fa55fda8b273138d6db0.png);
+  background-size: 18px 20px;
+  background-repeat: no-repeat;
+  background-position: 38em;
+  width:40em;
+  height:2em;
+  border: 1px solid #e1e1e1;
+}
+
+input[type="text"]:hover {
+  border:1px solid #a1a1a1;
+}
+input[type="submit"] {
+  border: 1px solid #d1d1d1;
+  margin:5px;
+  padding:10px;
+  font-size:16px;
+  color:#555
+}
+
+input[type="submit"]:hover {
+  border:1px solid #a1a1a1;
+}
+
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size:15px;
+  border-radius:50%;
+}
+
+#user {
+  background-color:red;
+  padding:12px;
+}
